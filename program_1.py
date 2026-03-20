@@ -15,7 +15,7 @@ def initials_generator(personsName):
     #    Add your logic here
     name_parts = personsName.split(" ")
     for part in name_parts:
-        personsInitials +=part[0].upper()+"."
+        personsInitials +=part[0].upper()+" . "
 
 
     return personsInitials.strip()
