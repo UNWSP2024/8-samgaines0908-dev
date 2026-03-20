@@ -7,10 +7,23 @@
 
 # Start your changes on line 13
 
+ #Author: Sam Gaines
+ #Date: 3/19/2026
+ #Title: Word Separator
+
 def word_separator(sentence):
 
     new_sentence = ""
     #    Add your logic here
+    for i in range(len(sentence)):
+        char = sentence[i]
+
+        if char.isupper()and i != 0:
+            new_sentence += " "+char.lower()
+        else:
+            new_sentence += char
+    new_sentence = new_sentence[0].upper() + new_sentence[1:]
+
 
     return new_sentence.strip()
 

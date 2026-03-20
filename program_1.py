@@ -5,10 +5,18 @@
 
 # Add your logic starting on line 11
 
+#Author: Sam Gaines
+#Date: 3/19/2026
+#Title: Initials
+
 def initials_generator(personsName):
 
     personsInitials = ""
     #    Add your logic here
+    name_parts = personsName.split(" ")
+    for part in name_parts:
+        personsInitials +=part[0].upper()+". "
+
 
     return personsInitials.strip()
 
