@@ -4,7 +4,7 @@
 # Then ask the user for a subject (like "COS"). 
 # Finally, the program will display the ID and name of all the courses having that subject.
 
-#Author: Sam Gaines
+#Author: Sam Gaines 
 #Date: 3/19/2026
 #Tile: Course Info
 
